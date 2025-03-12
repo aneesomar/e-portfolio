@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>Anees Omar e-Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="scrollProgress"></div>
+    </div>
+    <div class="grid-background"></div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#game">Play Game</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>Hi, my name is Anees</h1>
+                <h1>Welcome to my Portfolio</h1>
+                <p class="subtitle">BSc Geomatics & Computer Science</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="cta-primary">Get in Touch</a>
+                    <a href="https://docs.google.com/document/d/1uQfz1Au0gVKx4xPT8Xa48dg2FAsx0ErqV3pJp6xuOWo/edit?usp=sharing"
+                        class="cta-primary" id="download-cv" target="_blank">Download CV</a>
+                    <a href="#game" class="cta-primary">Try My Game</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I am a passionate student in my final year pursuing both Geomatics and Computer Science. My
+                            unique combination
+                            of skills allows me to bridge the gap between spatial data analysis and software
+                            development.</p>
+                        <p>I love to combine my passion for programming and geomatics and this can be seen throughout
+                            all my personal projects.</p>
+                    </div>
+                    <div class="skills-container">
+                        <div class="skills-column">
+                            <h3>Technical Skills</h3>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>GIS & Remote Sensing</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Spatial Analysis</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Web Development</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Database Management</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Data Visualization</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills-column">
+                            <h3>Programming Languages</h3>
+                            <div class="language-grid">
+                                <div class="language-item">
+                                    <i class="fab fa-python"></i>
+                                    <span>Python</span>
+                                </div>
+                                <div class="language-item">
+                                    <i class="fab fa-js"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="language-item">
+                                    <i class="fab fa-html5"></i>
+                                    <span>HTML & CSS</span>
+                                </div>
+                                <div class="language-item">
+                                    <i class="fab fa-react"></i>
+                                    <span>React</span>
+                                </div>
+                                <div class="language-item">
+                                    <i class="fab fa-java"></i>
+                                    <span>Java</span>
+                                </div>
+                                <div class="language-item">
+                                    <i class="fas fa-code"></i>
+                                    <span>Next.js</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+        <section id="game">
+            <div class="container">
+                <h2>Play My Game</h2>
+                <div class="game-container">
+                    <iframe src="https://pixel-cv.vercel.app/" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Statistical Plant Ecosystem Generator</h3>
+                        <p>Developed a system for generating realistic plant ecosystems using statistical sampling based
+                            on environmental and user-defined factors.
+                        </p>
+                        <a href="https://github.com/PlantGen141/PlantGen" class="project-link" target="_blank">View
+                            Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Land Evaluation Website</h3>
+                        <p>Designed and developed a web application to streamline land evaluations, delivering
+                            accessible insights into spatial data for enhanced decision-making.
+                        </p>
+                        <a href="https://spatialdatainfrastructuresproject.vercel.app/" class="project-link"
+                            target="_blank">View
+                            Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>HalalBites</h3>
+                        <p>A community-driven website for discovering halal restaurants nearby, where users can
+                            contribute and share listings.</p>
+                        <a href="https://halalbites.co.za/" class="project-link" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Connect With Me</h2>
+                <div class="social-links">
+                    <a href="https://github.com/aneesomar" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/anees-omar-648a26266/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="mailto:aneesomar.ao@gmail.com" class="social-link" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Anees Omar. Made by me :)</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const options = {
+                strings: ['Developer', 'GIS Specialist', 'Problem Solver', 'Tech Enthusiast'],
+                typeSpeed: 50,
+                backSpeed: 30,
+                loop: true
+            };
+
+            new Typed('#typing-text', options);
+        });
+
+
+
+
+        // Add to your existing script
+        window.onscroll = function () {
+            let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrolled = (winScroll / height) * 100;
+            document.getElementById("scrollProgress").style.width = scrolled + "%";
+        };
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const skillBars = entry.target.querySelectorAll('.skill-progress');
+                        skillBars.forEach(bar => {
+                            const width = bar.style.width;
+                            bar.style.width = '0';
+                            setTimeout(() => {
+                                bar.style.width = width;
+                            }, 100);
+                        });
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            const skillsContainer = document.querySelector('.skills-container');
+            if (skillsContainer) {
+                observer.observe(skillsContainer);
+            }
+        });
+    </script>
+</body>
+
+</html>
